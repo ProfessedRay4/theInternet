@@ -1,0 +1,89 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #424242;
+    color: #333;
+    font-family: Georgia, serif;
+}
+
+/* Center the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 3px 4px 10px -1px #4F7942;
+}
+
+/* Styling for the title */
+#title h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sub-titles {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;   
+}
+
+.body {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+/* More subtle focus outline */
+.input-group input:focus {
+    outline: 1px solid #4F7942;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    background-color: #4F7942;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9db995;
+}
