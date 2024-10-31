@@ -1,4 +1,6 @@
 var page = 0;
+console.log("Hello Mr. Hall");
+console.log("MADE BY JEREMIAH AND HIEN");
 
 function nextPage() {
     if ( page == 0 ) {
